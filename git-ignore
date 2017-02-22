@@ -1,0 +1,11 @@
+#!/bin/bash
+SUBDIRECTORY_OK=1
+. "$(git --exec-path)/git-sh-setup"
+
+require_work_tree
+cd_to_toplevel
+for ignore in "$@"; do
+    echo "$ignore" >> .gitignore
+done
+
+
