@@ -22,3 +22,5 @@ in a meeting. Suggested improvements:
 * [ ] Add a useful error message if no argument is given
 * [ ] Prevent adding duplicate lines to the .gitignore file
 * [ ] Support deleting entries from .gitignore using -d
+* [ ] Account for .gitignore files that do not end in newlines
+* [ ] Allow for a comment above the added entry
